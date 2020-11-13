@@ -4,7 +4,8 @@
   "description": "Playground for experimenting with deploy previews",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "yarn --cwd website build",
+    "start": "yarn --cwd website start"
   },
   "repository": {
     "type": "git",
