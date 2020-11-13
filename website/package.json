@@ -1,0 +1,17 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "parcel build index.pug",
+    "start": "parcel serve index.pug"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.4",
+    "pug": "3.0.0",
+    "stylus": "0.54.8",
+    "typescript": "4.0.5"
+  }
+}
